@@ -1,5 +1,5 @@
-const angular = require("angular");
+import { module } from "angular";
 
-angular.module("app", []).controller("HelloController", function ($scope) {
+module("app", []).controller("HelloController", function ($scope) {
   $scope.person = "daton89";
 });
